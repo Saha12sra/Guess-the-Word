@@ -11,13 +11,16 @@
 <link rel="stylesheet" type="text/css" href="game.css">
 </head>
 <body>
-<span id="player1name"></span><span id="player1score"></span>
+	<div style="margin-top: 30px; font-size:20px;">
+<span style="margin: 30px; margin-top: 30px;" id="player1name"></span><span id="player1score"></span>
 <br>
-<span id="player2name"></span><span id="player2score"></span>
-
+<br>
+<span style="margin: 30px;" id="player2name"></span><span id="player2score"></span>
+</div>
 <div class="container">
 	<center>
-		<h2 style="color: white;">Guess The Word!</h2>
+		<h1 style="color: white;">Guess The Word</h2>
+		<br>
 <h3 id="questionturn"></h3>
 <h3 id="answerturn"></h3>
 <br>
@@ -30,7 +33,7 @@
 		<br>
 <input type="text" placeholder="Type your word here" id="word" class="form-control">
 <br>
-<button onclick="send()" class="btn btn-success" style="width:30%;">SEND</button>
+<button onclick="send()" class="btn btn-primary" style="width:30%;">SEND</button>
 	</center>
 </div>
 
